@@ -1,14 +1,11 @@
 PROBLEMA: prendere una pizza
 INIZIO
-    Prendere listino pizze
-        cerco una pizza che mi piaccia 
-        La ordino
-        SE c'è una pizza che mi piace la prendo
-        ALTIRMENTI se c'è la mia solita pizza "prosciuta e funghi" prendila
-
-    La pizza arriva 
-        Mangio la pizza
-        ? la finisco
-        SE non riesco a finirla la metto in frigo
-
-FINE 
+prendere listino pizze
+    controllo se c'è la mia pizza
+        cerco una pizza che mi piaccia
+        altrimenti se c'è la pizza "prosciutto e funghi" prendila
+    la pizza arriva
+    riesco a finire la pizza
+        si era buona :)
+        no la metto in frigo
+FINE
